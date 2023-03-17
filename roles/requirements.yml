@@ -1,0 +1,6 @@
+---
+- src: https://github.com/an0th3rdba/setup_storage.git
+  name: setup_storage
+  version: main
+  scm: git
+  path: roles

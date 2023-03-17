@@ -1,0 +1,8 @@
+---
+- name: Storage setup using LVM
+  hosts: all
+  ignore_unreachable: yes
+  become: yes
+  become_flags: '-i'
+  roles:
+    - setup_storage

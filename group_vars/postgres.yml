@@ -1,0 +1,2 @@
+pg_os_owner: "postgres"
+pg_db_port: 5432
